@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  prompteval-lite:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - LOG_LEVEL=INFO
+      - RATE_LIMIT_REQUESTS=10
+      - RATE_LIMIT_WINDOW=60
+      - MAX_SYNTHETIC_CASES=10
+      - REQUEST_TIMEOUT=30
+    restart: unless-stopped

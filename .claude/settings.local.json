@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(python3 -m pip:*)",
+      "Bash(python3:*)",
+      "Bash(chmod:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(rm:*)",
+      "Bash(npm run build:*)",
+      "Bash(./build.sh)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm audit fix:*)",
+      "Bash(npm run dev:*)",
+      "Bash(python:*)",
+      "Bash(ls:*)"
+    ],
+    "deny": []
+  }
+}

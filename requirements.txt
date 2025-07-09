@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+langchain
+langchain-google-genai
+python-dotenv
+structlog
+python-multipart
+httpx
+requests
+pytest
+pytest-asyncio

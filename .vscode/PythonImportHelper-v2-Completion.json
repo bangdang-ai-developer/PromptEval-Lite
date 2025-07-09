@@ -1,0 +1,916 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.logging_config",
+        "description": "app.logging_config",
+        "isExtraImport": true,
+        "detail": "app.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.logging_config",
+        "description": "app.logging_config",
+        "isExtraImport": true,
+        "detail": "app.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "configure_logging",
+        "importPath": "app.logging_config",
+        "description": "app.logging_config",
+        "isExtraImport": true,
+        "detail": "app.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.logging_config",
+        "description": "app.logging_config",
+        "isExtraImport": true,
+        "detail": "app.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestResult",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreMethod",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestRequest",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestResponse",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "EnhanceRequest",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "EnhanceResponse",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ErrorResponse",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "HealthResponse",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestResult",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "extract_json_array",
+        "importPath": "app.json_utils",
+        "description": "app.json_utils",
+        "isExtraImport": true,
+        "detail": "app.json_utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_json_object",
+        "importPath": "app.json_utils",
+        "description": "app.json_utils",
+        "isExtraImport": true,
+        "detail": "app.json_utils",
+        "documentation": {}
+    },
+    {
+        "label": "structlog",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "structlog",
+        "description": "structlog",
+        "detail": "structlog",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundTasks",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "GeminiService",
+        "importPath": "app.llm_service",
+        "description": "app.llm_service",
+        "isExtraImport": true,
+        "detail": "app.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "GeminiService",
+        "importPath": "app.llm_service",
+        "description": "app.llm_service",
+        "isExtraImport": true,
+        "detail": "app.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    google_api_key: str = Field(..., env=\"GOOGLE_API_KEY\")\n    log_level: str = Field(\"INFO\", env=\"LOG_LEVEL\")\n    rate_limit_requests: int = Field(10, env=\"RATE_LIMIT_REQUESTS\")\n    rate_limit_window: int = Field(60, env=\"RATE_LIMIT_WINDOW\")\n    max_synthetic_cases: int = Field(10, env=\"MAX_SYNTHETIC_CASES\")\n    request_timeout: int = Field(30, env=\"REQUEST_TIMEOUT\")\n    class Config:\n        env_file = \".env\"\n        env_file_encoding = \"utf-8\"",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "safe_json_parse",
+        "kind": 2,
+        "importPath": "app.json_utils",
+        "description": "app.json_utils",
+        "peekOfCode": "def safe_json_parse(text: str) -> Any:\n    \"\"\"\n    Safely parse JSON from text that may contain formatting issues.\n    Args:\n        text: The text containing JSON\n    Returns:\n        Parsed JSON object or raises Exception\n    \"\"\"\n    original_text = text\n    # Clean up the response to extract JSON",
+        "detail": "app.json_utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_json_array",
+        "kind": 2,
+        "importPath": "app.json_utils",
+        "description": "app.json_utils",
+        "peekOfCode": "def extract_json_array(text: str) -> List[Dict[str, Any]]:\n    \"\"\"Extract JSON array from text\"\"\"\n    result = safe_json_parse(text)\n    if isinstance(result, list):\n        return result\n    elif isinstance(result, dict):\n        # Maybe it's wrapped in an object\n        for key, value in result.items():\n            if isinstance(value, list):\n                return value",
+        "detail": "app.json_utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_json_object",
+        "kind": 2,
+        "importPath": "app.json_utils",
+        "description": "app.json_utils",
+        "peekOfCode": "def extract_json_object(text: str) -> Dict[str, Any]:\n    \"\"\"Extract JSON object from text\"\"\"\n    result = safe_json_parse(text)\n    if isinstance(result, dict):\n        return result\n    raise Exception(f\"Expected JSON object but got: {type(result)}\")",
+        "detail": "app.json_utils",
+        "documentation": {}
+    },
+    {
+        "label": "GeminiService",
+        "kind": 6,
+        "importPath": "app.llm_service",
+        "description": "app.llm_service",
+        "peekOfCode": "class GeminiService:\n    def __init__(self):\n        # Main LLM for general tasks\n        self.llm = ChatGoogleGenerativeAI(\n            model=\"gemini-1.5-flash\",\n            google_api_key=settings.google_api_key,\n            temperature=0.7,\n            timeout=settings.request_timeout\n        )\n        # Efficient evaluator using gemini-2.0-flash",
+        "detail": "app.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "1.0",
+        "kind": 5,
+        "importPath": "app.llm_service",
+        "description": "app.llm_service",
+        "peekOfCode": "1.0 = Same meaning/intent\n0.8-0.9 = Very similar meaning\n0.6-0.7 = Mostly similar\n0.4-0.5 = Partially similar\n0.0-0.3 = Different meaning\nJSON: {{\"score\": float, \"reasoning\": \"brief explanation\"}}\"\"\"\n            try:\n                messages = [HumanMessage(content=judge_prompt)]\n                response = await self.evaluator.ainvoke(messages)\n                result = extract_json_object(response.content.strip())",
+        "detail": "app.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "0.8-0.9",
+        "kind": 5,
+        "importPath": "app.llm_service",
+        "description": "app.llm_service",
+        "peekOfCode": "0.8-0.9 = Very similar meaning\n0.6-0.7 = Mostly similar\n0.4-0.5 = Partially similar\n0.0-0.3 = Different meaning\nJSON: {{\"score\": float, \"reasoning\": \"brief explanation\"}}\"\"\"\n            try:\n                messages = [HumanMessage(content=judge_prompt)]\n                response = await self.evaluator.ainvoke(messages)\n                result = extract_json_object(response.content.strip())\n                return float(result[\"score\"]), result[\"reasoning\"]",
+        "detail": "app.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "0.6-0.7",
+        "kind": 5,
+        "importPath": "app.llm_service",
+        "description": "app.llm_service",
+        "peekOfCode": "0.6-0.7 = Mostly similar\n0.4-0.5 = Partially similar\n0.0-0.3 = Different meaning\nJSON: {{\"score\": float, \"reasoning\": \"brief explanation\"}}\"\"\"\n            try:\n                messages = [HumanMessage(content=judge_prompt)]\n                response = await self.evaluator.ainvoke(messages)\n                result = extract_json_object(response.content.strip())\n                return float(result[\"score\"]), result[\"reasoning\"]\n            except Exception as e:",
+        "detail": "app.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "0.4-0.5",
+        "kind": 5,
+        "importPath": "app.llm_service",
+        "description": "app.llm_service",
+        "peekOfCode": "0.4-0.5 = Partially similar\n0.0-0.3 = Different meaning\nJSON: {{\"score\": float, \"reasoning\": \"brief explanation\"}}\"\"\"\n            try:\n                messages = [HumanMessage(content=judge_prompt)]\n                response = await self.evaluator.ainvoke(messages)\n                result = extract_json_object(response.content.strip())\n                return float(result[\"score\"]), result[\"reasoning\"]\n            except Exception as e:\n                logger.error(\"Failed hybrid scoring\", error=str(e))",
+        "detail": "app.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "0.0-0.3",
+        "kind": 5,
+        "importPath": "app.llm_service",
+        "description": "app.llm_service",
+        "peekOfCode": "0.0-0.3 = Different meaning\nJSON: {{\"score\": float, \"reasoning\": \"brief explanation\"}}\"\"\"\n            try:\n                messages = [HumanMessage(content=judge_prompt)]\n                response = await self.evaluator.ainvoke(messages)\n                result = extract_json_object(response.content.strip())\n                return float(result[\"score\"]), result[\"reasoning\"]\n            except Exception as e:\n                logger.error(\"Failed hybrid scoring\", error=str(e))\n                return 0.0, f\"Scoring error: {str(e)}\"",
+        "detail": "app.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "configure_logging",
+        "kind": 2,
+        "importPath": "app.logging_config",
+        "description": "app.logging_config",
+        "peekOfCode": "def configure_logging():\n    logging.basicConfig(\n        format=\"%(message)s\",\n        stream=sys.stdout,\n        level=getattr(logging, settings.log_level.upper())\n    )\n    structlog.configure(\n        processors=[\n            structlog.stdlib.filter_by_level,\n            structlog.stdlib.add_logger_name,",
+        "detail": "app.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.logging_config",
+        "description": "app.logging_config",
+        "peekOfCode": "logger = structlog.get_logger()",
+        "detail": "app.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "check_rate_limit",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def check_rate_limit(client_ip: str) -> bool:\n    current_time = time.time()\n    if client_ip not in rate_limit_store:\n        rate_limit_store[client_ip] = {\"requests\": 1, \"window_start\": current_time}\n        return True\n    client_data = rate_limit_store[client_ip]\n    if current_time - client_data[\"window_start\"] > settings.rate_limit_window:\n        client_data[\"requests\"] = 1\n        client_data[\"window_start\"] = current_time\n        return True",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"PromptEval-Lite\",\n    description=\"Zero-Storage Prompt Tester & Enhancer\",\n    version=\"1.0.0\",\n    lifespan=lifespan\n)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "static_dir",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "static_dir = os.path.join(os.path.dirname(__file__), \"..\", \"static\")\nif os.path.exists(static_dir):\n    app.mount(\"/\", StaticFiles(directory=static_dir, html=True), name=\"static\")\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(app, host=\"0.0.0.0\", port=8000)",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreMethod",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class ScoreMethod(str, Enum):\n    EXACT_MATCH = \"exact_match\"  # Semantic similarity with strict evaluation\n    GPT_JUDGE = \"gpt_judge\"  # Semantic similarity with flexible evaluation\n    HYBRID = \"hybrid\"  # Optimized semantic evaluation using gemini-2.0-flash\nclass TestCase(BaseModel):\n    input: str = Field(..., description=\"Input text for the test case\")\n    expected: str = Field(..., description=\"Expected output for the test case\")\nclass TestRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to test\", min_length=1)\n    domain: Optional[str] = Field(None, description=\"Domain/topic for synthetic test cases\")",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class TestCase(BaseModel):\n    input: str = Field(..., description=\"Input text for the test case\")\n    expected: str = Field(..., description=\"Expected output for the test case\")\nclass TestRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to test\", min_length=1)\n    domain: Optional[str] = Field(None, description=\"Domain/topic for synthetic test cases\")\n    num_cases: int = Field(5, description=\"Number of test cases to generate\", ge=1, le=10)\n    score_method: ScoreMethod = Field(ScoreMethod.HYBRID, description=\"Scoring method - all methods evaluate semantic meaning, not exact text matching\")\n    example_expected: Optional[str] = Field(None, description=\"Optional example of expected output format to guide test case generation\")\n    @validator('prompt')",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestRequest",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class TestRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to test\", min_length=1)\n    domain: Optional[str] = Field(None, description=\"Domain/topic for synthetic test cases\")\n    num_cases: int = Field(5, description=\"Number of test cases to generate\", ge=1, le=10)\n    score_method: ScoreMethod = Field(ScoreMethod.HYBRID, description=\"Scoring method - all methods evaluate semantic meaning, not exact text matching\")\n    example_expected: Optional[str] = Field(None, description=\"Optional example of expected output format to guide test case generation\")\n    @validator('prompt')\n    def validate_prompt(cls, v):\n        if len(v.strip()) == 0:\n            raise ValueError('Prompt cannot be empty')",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestResult",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class TestResult(BaseModel):\n    test_case: TestCase\n    actual_output: str\n    score: float = Field(..., ge=0.0, le=1.0)\n    reasoning: Optional[str] = None\nclass TestResponse(BaseModel):\n    request_id: str\n    prompt: str\n    test_results: List[TestResult]\n    overall_score: float = Field(..., ge=0.0, le=1.0)",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestResponse",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class TestResponse(BaseModel):\n    request_id: str\n    prompt: str\n    test_results: List[TestResult]\n    overall_score: float = Field(..., ge=0.0, le=1.0)\n    total_cases: int\n    passed_cases: int\n    execution_time: float\n    token_usage: Dict[str, int]\nclass EnhanceRequest(BaseModel):",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "EnhanceRequest",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class EnhanceRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to enhance\", min_length=1)\n    domain: Optional[str] = Field(None, description=\"Domain/topic context\")\n    auto_retest: bool = Field(False, description=\"Automatically test the enhanced prompt\")\n    @validator('prompt')\n    def validate_prompt(cls, v):\n        if len(v.strip()) == 0:\n            raise ValueError('Prompt cannot be empty')\n        return v.strip()\nclass EnhanceResponse(BaseModel):",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "EnhanceResponse",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class EnhanceResponse(BaseModel):\n    request_id: str\n    original_prompt: str\n    enhanced_prompt: str\n    improvements: List[str]\n    execution_time: float\n    token_usage: Dict[str, int]\n    test_results: Optional[TestResponse] = None\nclass ErrorResponse(BaseModel):\n    error: str",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ErrorResponse",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class ErrorResponse(BaseModel):\n    error: str\n    message: str\n    request_id: Optional[str] = None\nclass HealthResponse(BaseModel):\n    status: str\n    timestamp: str\n    version: str = \"1.0.0\"",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "HealthResponse",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class HealthResponse(BaseModel):\n    status: str\n    timestamp: str\n    version: str = \"1.0.0\"",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "test_health_check",
+        "kind": 2,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "def test_health_check():\n    response = client.get(\"/health\")\n    assert response.status_code == 200\n    data = response.json()\n    assert data[\"status\"] == \"healthy\"\n    assert \"timestamp\" in data\n    assert data[\"version\"] == \"1.0.0\"\ndef test_test_endpoint_validation():\n    # Test empty prompt\n    response = client.post(\"/test\", json={\"prompt\": \"\"})",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_test_endpoint_validation",
+        "kind": 2,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "def test_test_endpoint_validation():\n    # Test empty prompt\n    response = client.post(\"/test\", json={\"prompt\": \"\"})\n    assert response.status_code == 422\n    # Test valid request structure\n    response = client.post(\"/test\", json={\n        \"prompt\": \"Translate the following to French:\",\n        \"domain\": \"translation\",\n        \"num_cases\": 3\n    })",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_enhance_endpoint_validation",
+        "kind": 2,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "def test_enhance_endpoint_validation():\n    # Test empty prompt\n    response = client.post(\"/enhance\", json={\"prompt\": \"\"})\n    assert response.status_code == 422\n    # Test valid request structure\n    response = client.post(\"/enhance\", json={\n        \"prompt\": \"Translate the following to French:\",\n        \"domain\": \"translation\",\n        \"auto_retest\": False\n    })",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_rate_limiting",
+        "kind": 2,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "def test_rate_limiting():\n    # This test would need to be more sophisticated to properly test rate limiting\n    # For now, just ensure the middleware doesn't break normal requests\n    response = client.get(\"/health\")\n    assert response.status_code == 200",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "tests.test_main",
+        "description": "tests.test_main",
+        "peekOfCode": "client = TestClient(app)\ndef test_health_check():\n    response = client.get(\"/health\")\n    assert response.status_code == 200\n    data = response.json()\n    assert data[\"status\"] == \"healthy\"\n    assert \"timestamp\" in data\n    assert data[\"version\"] == \"1.0.0\"\ndef test_test_endpoint_validation():\n    # Test empty prompt",
+        "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_health",
+        "kind": 2,
+        "importPath": "test_endpoints",
+        "description": "test_endpoints",
+        "peekOfCode": "def test_health():\n    \"\"\"Test the health endpoint\"\"\"\n    try:\n        response = requests.get(f\"{BASE_URL}/health\")\n        if response.status_code == 200:\n            print(\"✅ Health endpoint is working!\")\n            print(f\"Response: {response.json()}\")\n            return True\n        else:\n            print(f\"❌ Health endpoint failed with status {response.status_code}\")",
+        "detail": "test_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "test_test_endpoint",
+        "kind": 2,
+        "importPath": "test_endpoints",
+        "description": "test_endpoints",
+        "peekOfCode": "def test_test_endpoint():\n    \"\"\"Test the /test endpoint\"\"\"\n    try:\n        test_data = {\n            \"prompt\": \"Translate the following text to French:\",\n            \"domain\": \"translation\",\n            \"num_cases\": 3,\n            \"score_method\": \"exact_match\"\n        }\n        response = requests.post(f\"{BASE_URL}/test\", json=test_data)",
+        "detail": "test_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "test_enhance_endpoint",
+        "kind": 2,
+        "importPath": "test_endpoints",
+        "description": "test_endpoints",
+        "peekOfCode": "def test_enhance_endpoint():\n    \"\"\"Test the /enhance endpoint\"\"\"\n    try:\n        enhance_data = {\n            \"prompt\": \"Translate text to French\",\n            \"domain\": \"translation\",\n            \"auto_retest\": False\n        }\n        response = requests.post(f\"{BASE_URL}/enhance\", json=enhance_data)\n        if response.status_code == 200:",
+        "detail": "test_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "test_endpoints",
+        "description": "test_endpoints",
+        "peekOfCode": "def main():\n    print(\"Testing PromptEval-Lite API endpoints...\")\n    print(\"Make sure the server is running on http://localhost:8000\")\n    print()\n    # Test health endpoint\n    if not test_health():\n        print(\"Server might not be running. Start it with: python3 -m uvicorn app.main:app --reload\")\n        return\n    print()\n    # Test /test endpoint",
+        "detail": "test_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_URL",
+        "kind": 5,
+        "importPath": "test_endpoints",
+        "description": "test_endpoints",
+        "peekOfCode": "BASE_URL = \"http://localhost:8000\"\ndef test_health():\n    \"\"\"Test the health endpoint\"\"\"\n    try:\n        response = requests.get(f\"{BASE_URL}/health\")\n        if response.status_code == 200:\n            print(\"✅ Health endpoint is working!\")\n            print(f\"Response: {response.json()}\")\n            return True\n        else:",
+        "detail": "test_endpoints",
+        "documentation": {}
+    }
+]
