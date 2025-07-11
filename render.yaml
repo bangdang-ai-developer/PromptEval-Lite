@@ -1,0 +1,66 @@
+services:
+  # Web service for the FastAPI backend
+  - type: web
+    name: prompteval-lite
+    runtime: python
+    buildCommand: |
+      # Install Python dependencies
+      pip install -r requirements.txt
+      # Build frontend
+      cd frontend
+      npm install
+      npm run build
+      # Copy built files to static directory
+      cd ..
+      mkdir -p static
+      cp -r frontend/dist/* static/
+    startCommand: |
+      # Run database migrations if enabled
+      if [ "$ENABLE_DATABASE" = "true" ]; then
+        alembic upgrade head
+      fi
+      # Start the application
+      uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      # Required - You must set these in Render dashboard
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: JWT_SECRET_KEY
+        generateValue: true
+      - key: ENCRYPTION_KEY
+        sync: false
+      
+      # Model Configuration
+      - key: DEFAULT_MODEL
+        value: gemini-2.5-flash
+      - key: EVALUATOR_MODEL
+        value: gemini-2.5-flash
+      
+      # Application Settings
+      - key: LOG_LEVEL
+        value: INFO
+      - key: RATE_LIMIT_REQUESTS
+        value: 10
+      - key: RATE_LIMIT_WINDOW
+        value: 60
+      - key: MAX_SYNTHETIC_CASES
+        value: 10
+      - key: REQUEST_TIMEOUT
+        value: 30
+      
+      # Enable database
+      - key: ENABLE_DATABASE
+        value: true
+      
+      # Authentication
+      - key: JWT_ALGORITHM
+        value: HS256
+      - key: JWT_EXPIRATION_HOURS
+        value: 24
+
+databases:
+  # PostgreSQL database
+  - name: prompteval-db
+    databaseName: prompteval
+    user: prompteval
+    plan: free # 90 days free, then requires upgrade

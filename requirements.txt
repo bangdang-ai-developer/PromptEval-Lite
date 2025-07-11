@@ -4,6 +4,8 @@ pydantic
 pydantic-settings
 langchain
 langchain-google-genai
+langchain-openai
+langchain-anthropic
 python-dotenv
 structlog
 python-multipart
@@ -11,3 +13,12 @@ httpx
 requests
 pytest
 pytest-asyncio
+bleach
+sqlalchemy[asyncio]
+asyncpg
+aiosqlite
+alembic
+python-jose[cryptography]
+passlib[bcrypt]
+cryptography
+pydantic[email]

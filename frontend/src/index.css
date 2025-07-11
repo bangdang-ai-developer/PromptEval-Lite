@@ -30,7 +30,7 @@
   .input-field {
     @apply w-full px-4 py-3 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-xl 
            focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200
-           hover:shadow-md focus:shadow-lg;
+           hover:shadow-md focus:shadow-lg outline-none;
   }
   
   .textarea-field {
@@ -77,6 +77,26 @@
     @apply bg-gradient-to-br from-white/80 to-indigo-50/50 backdrop-blur-sm rounded-xl p-4 
            border border-white/50 shadow-lg hover:shadow-xl transition-all duration-200;
   }
+  
+  .config-section {
+    @apply bg-gray-50 p-6 rounded-xl border border-gray-200 space-y-4;
+  }
+  
+  .config-card {
+    @apply bg-white p-4 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200;
+  }
+  
+  .config-header {
+    @apply flex items-center justify-between mb-3;
+  }
+  
+  .config-label {
+    @apply text-sm font-medium text-gray-700;
+  }
+  
+  .config-description {
+    @apply text-xs text-gray-500 mt-2;
+  }
 }
 
 @layer utilities {
@@ -94,5 +114,48 @@
   
   .text-gradient-error {
     @apply bg-gradient-to-r from-red-600 to-rose-600 bg-clip-text text-transparent;
+  }
+  
+  .animate-slide-down {
+    animation: slideDown 0.3s ease-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

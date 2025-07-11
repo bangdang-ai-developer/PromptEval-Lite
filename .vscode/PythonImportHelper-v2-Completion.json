@@ -1,11 +1,580 @@
 [
     {
-        "label": "os",
+        "label": "asyncio",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "sqlalchemy.engine",
+        "description": "sqlalchemy.engine",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.engine",
+        "documentation": {}
+    },
+    {
+        "label": "async_engine_from_config",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "command",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_optional_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "init_database",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "close_database",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_optional_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "init_database",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "close_database",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "UserAPIKey",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "PromptHistory",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "UserAPIKey",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "PromptHistory",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "PromptHistory",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncGenerator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -89,6 +658,14 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -118,6 +695,286 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundTasks",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -161,29 +1018,123 @@
         "documentation": {}
     },
     {
-        "label": "BaseSettings",
-        "importPath": "pydantic_settings",
-        "description": "pydantic_settings",
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
         "isExtraImport": true,
-        "detail": "pydantic_settings",
+        "detail": "pydantic",
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
+        "label": "get_password_hash",
+        "importPath": "app.auth",
+        "description": "app.auth",
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "detail": "app.auth",
         "documentation": {}
     },
     {
-        "label": "re",
-        "kind": 6,
+        "label": "verify_password",
+        "importPath": "app.auth",
+        "description": "app.auth",
         "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "isExtraImport": true,
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "validate_password",
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "isExtraImport": true,
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "encrypt_api_key",
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "isExtraImport": true,
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "decrypt_api_key",
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "isExtraImport": true,
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "decode_access_token",
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "isExtraImport": true,
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.dependencies",
+        "description": "app.dependencies",
+        "isExtraImport": true,
+        "detail": "app.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.dependencies",
+        "description": "app.dependencies",
+        "isExtraImport": true,
+        "detail": "app.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user_optional",
+        "importPath": "app.dependencies",
+        "description": "app.dependencies",
+        "isExtraImport": true,
+        "detail": "app.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.logging_config",
+        "description": "app.logging_config",
+        "isExtraImport": true,
+        "detail": "app.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.logging_config",
+        "description": "app.logging_config",
+        "isExtraImport": true,
+        "detail": "app.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.logging_config",
+        "description": "app.logging_config",
+        "isExtraImport": true,
+        "detail": "app.logging_config",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.logging_config",
+        "description": "app.logging_config",
+        "isExtraImport": true,
+        "detail": "app.logging_config",
         "documentation": {}
     },
     {
@@ -219,21 +1170,51 @@
         "documentation": {}
     },
     {
-        "label": "asyncio",
-        "kind": 6,
+        "label": "logger",
+        "importPath": "app.logging_config",
+        "description": "app.logging_config",
         "isExtraImport": true,
-        "importPath": "asyncio",
-        "description": "asyncio",
-        "detail": "asyncio",
+        "detail": "app.logging_config",
         "documentation": {}
     },
     {
-        "label": "time",
-        "kind": 6,
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -246,35 +1227,51 @@
         "documentation": {}
     },
     {
-        "label": "ChatGoogleGenerativeAI",
-        "importPath": "langchain_google_genai",
-        "description": "langchain_google_genai",
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
         "isExtraImport": true,
-        "detail": "langchain_google_genai",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "HumanMessage",
-        "importPath": "langchain.schema",
-        "description": "langchain.schema",
+        "label": "selectinload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "langchain.schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "SystemMessage",
-        "importPath": "langchain.schema",
-        "description": "langchain.schema",
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "langchain.schema",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "PromptTemplate",
-        "importPath": "langchain.prompts",
-        "description": "langchain.prompts",
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "langchain.prompts",
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "ModelProvider",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModelProvider",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
         "documentation": {}
     },
     {
@@ -358,27 +1355,287 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "app.config",
-        "description": "app.config",
+        "label": "TestCase",
+        "importPath": "app.models",
+        "description": "app.models",
         "isExtraImport": true,
-        "detail": "app.config",
+        "detail": "app.models",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "app.config",
-        "description": "app.config",
+        "label": "TestResult",
+        "importPath": "app.models",
+        "description": "app.models",
         "isExtraImport": true,
-        "detail": "app.config",
+        "detail": "app.models",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "app.config",
-        "description": "app.config",
+        "label": "ScoreMethod",
+        "importPath": "app.models",
+        "description": "app.models",
         "isExtraImport": true,
-        "detail": "app.config",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModelProvider",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "APIKeyValidator",
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "isExtraImport": true,
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "PromptValidator",
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "isExtraImport": true,
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "PromptValidator",
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "isExtraImport": true,
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimitValidator",
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "isExtraImport": true,
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "APIKeyValidator",
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "isExtraImport": true,
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "PromptValidator",
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "isExtraImport": true,
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "PromptValidator",
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "isExtraImport": true,
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimitValidator",
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "isExtraImport": true,
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "APIKeyValidator",
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "isExtraImport": true,
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "Fernet",
+        "importPath": "cryptography.fernet",
+        "description": "cryptography.fernet",
+        "isExtraImport": true,
+        "detail": "cryptography.fernet",
+        "documentation": {}
+    },
+    {
+        "label": "Fernet",
+        "importPath": "cryptography.fernet",
+        "description": "cryptography.fernet",
+        "isExtraImport": true,
+        "detail": "cryptography.fernet",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "NullPool",
+        "importPath": "sqlalchemy.pool",
+        "description": "sqlalchemy.pool",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.pool",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "extract_json_array",
+        "importPath": "app.json_utils",
+        "description": "app.json_utils",
+        "isExtraImport": true,
+        "detail": "app.json_utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_json_object",
+        "importPath": "app.json_utils",
+        "description": "app.json_utils",
+        "isExtraImport": true,
+        "detail": "app.json_utils",
         "documentation": {}
     },
     {
@@ -413,55 +1670,6 @@
         "importPath": "logging",
         "description": "logging",
         "detail": "logging",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Request",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "BackgroundTasks",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -513,11 +1721,52 @@
         "documentation": {}
     },
     {
+        "label": "MultiModelService",
+        "importPath": "app.multi_model_service",
+        "description": "app.multi_model_service",
+        "isExtraImport": true,
+        "detail": "app.multi_model_service",
+        "documentation": {}
+    },
+    {
         "label": "Enum",
         "importPath": "enum",
         "description": "enum",
         "isExtraImport": true,
         "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatAnthropic",
+        "importPath": "langchain_anthropic",
+        "description": "langchain_anthropic",
+        "isExtraImport": true,
+        "detail": "langchain_anthropic",
+        "documentation": {}
+    },
+    {
+        "label": "bleach",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bleach",
+        "description": "bleach",
+        "detail": "bleach",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "alembic.config",
+        "description": "alembic.config",
+        "isExtraImport": true,
+        "detail": "alembic.config",
         "documentation": {}
     },
     {
@@ -563,11 +1812,254 @@
         "documentation": {}
     },
     {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "do_run_migrations",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def do_run_migrations(connection: Connection) -> None:\n    context.configure(connection=connection, target_metadata=target_metadata)\n    with context.begin_transaction():\n        context.run_migrations()\nasync def run_async_migrations() -> None:\n    \"\"\"In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = async_engine_from_config(\n        config.get_section(config.config_ini_section, {}),",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\"\"\"\n    asyncio.run(run_async_migrations())\nif context.is_offline_mode():\n    run_migrations_offline()\nelse:\n    run_migrations_online()",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "config = context.config\n# Set the database URL from our settings\nif settings.database_url:\n    config.set_main_option(\"sqlalchemy.url\", settings.database_url)\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegister",
+        "kind": 6,
+        "importPath": "app.api.auth",
+        "description": "app.api.auth",
+        "peekOfCode": "class UserRegister(BaseModel):\n    \"\"\"User registration request.\"\"\"\n    email: EmailStr\n    username: str = Field(..., min_length=3, max_length=50)\n    password: str = Field(..., min_length=8)\n    @validator('username')\n    def validate_username(cls, v):\n        # Only allow alphanumeric and underscore\n        if not v.replace('_', '').isalnum():\n            raise ValueError('Username must be alphanumeric with underscores only')",
+        "detail": "app.api.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "kind": 6,
+        "importPath": "app.api.auth",
+        "description": "app.api.auth",
+        "peekOfCode": "class UserLogin(BaseModel):\n    \"\"\"User login request.\"\"\"\n    username_or_email: str\n    password: str\nclass TokenResponse(BaseModel):\n    \"\"\"Token response.\"\"\"\n    access_token: str\n    token_type: str = \"bearer\"\nclass UserResponse(BaseModel):\n    \"\"\"User response.\"\"\"",
+        "detail": "app.api.auth",
+        "documentation": {}
+    },
+    {
+        "label": "TokenResponse",
+        "kind": 6,
+        "importPath": "app.api.auth",
+        "description": "app.api.auth",
+        "peekOfCode": "class TokenResponse(BaseModel):\n    \"\"\"Token response.\"\"\"\n    access_token: str\n    token_type: str = \"bearer\"\nclass UserResponse(BaseModel):\n    \"\"\"User response.\"\"\"\n    id: str\n    email: str\n    username: str\n    is_active: bool",
+        "detail": "app.api.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "app.api.auth",
+        "description": "app.api.auth",
+        "peekOfCode": "class UserResponse(BaseModel):\n    \"\"\"User response.\"\"\"\n    id: str\n    email: str\n    username: str\n    is_active: bool\n@router.post(\"/register\", response_model=TokenResponse)\nasync def register(\n    user_data: UserRegister,\n    db: AsyncSession = Depends(get_db)",
+        "detail": "app.api.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.auth",
+        "description": "app.api.auth",
+        "peekOfCode": "router = APIRouter(prefix=\"/api/auth\", tags=[\"authentication\"])\nclass UserRegister(BaseModel):\n    \"\"\"User registration request.\"\"\"\n    email: EmailStr\n    username: str = Field(..., min_length=3, max_length=50)\n    password: str = Field(..., min_length=8)\n    @validator('username')\n    def validate_username(cls, v):\n        # Only allow alphanumeric and underscore\n        if not v.replace('_', '').isalnum():",
+        "detail": "app.api.auth",
+        "documentation": {}
+    },
+    {
+        "label": "SaveAPIKeyRequest",
+        "kind": 6,
+        "importPath": "app.api.user",
+        "description": "app.api.user",
+        "peekOfCode": "class SaveAPIKeyRequest(BaseModel):\n    \"\"\"Request to save an API key.\"\"\"\n    provider: ModelProvider\n    api_key: str\n    key_name: str = Field(..., min_length=1, max_length=100)\nclass APIKeyResponse(BaseModel):\n    \"\"\"Response for saved API key.\"\"\"\n    id: str\n    provider: ModelProvider\n    key_name: str",
+        "detail": "app.api.user",
+        "documentation": {}
+    },
+    {
+        "label": "APIKeyResponse",
+        "kind": 6,
+        "importPath": "app.api.user",
+        "description": "app.api.user",
+        "peekOfCode": "class APIKeyResponse(BaseModel):\n    \"\"\"Response for saved API key.\"\"\"\n    id: str\n    provider: ModelProvider\n    key_name: str\n    created_at: datetime\nclass PromptHistoryResponse(BaseModel):\n    \"\"\"Response for prompt history item.\"\"\"\n    id: str\n    prompt: str",
+        "detail": "app.api.user",
+        "documentation": {}
+    },
+    {
+        "label": "PromptHistoryResponse",
+        "kind": 6,
+        "importPath": "app.api.user",
+        "description": "app.api.user",
+        "peekOfCode": "class PromptHistoryResponse(BaseModel):\n    \"\"\"Response for prompt history item.\"\"\"\n    id: str\n    prompt: str\n    enhanced_prompt: Optional[str]\n    domain: Optional[str]\n    model_used: str\n    overall_score: Optional[float]\n    is_favorite: bool\n    created_at: datetime",
+        "detail": "app.api.user",
+        "documentation": {}
+    },
+    {
+        "label": "PromptHistoryDetail",
+        "kind": 6,
+        "importPath": "app.api.user",
+        "description": "app.api.user",
+        "peekOfCode": "class PromptHistoryDetail(PromptHistoryResponse):\n    \"\"\"Detailed prompt history with full results.\"\"\"\n    test_results: Optional[dict]\n    improvements: Optional[List[str]]\n    token_usage: Optional[dict]\n@router.get(\"/api-keys\", response_model=List[APIKeyResponse])\nasync def list_api_keys(\n    current_user: User = Depends(get_current_user),\n    db: AsyncSession = Depends(get_db)\n):",
+        "detail": "app.api.user",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.user",
+        "description": "app.api.user",
+        "peekOfCode": "router = APIRouter(prefix=\"/api/user\", tags=[\"user\"])\nclass SaveAPIKeyRequest(BaseModel):\n    \"\"\"Request to save an API key.\"\"\"\n    provider: ModelProvider\n    api_key: str\n    key_name: str = Field(..., min_length=1, max_length=100)\nclass APIKeyResponse(BaseModel):\n    \"\"\"Response for saved API key.\"\"\"\n    id: str\n    provider: ModelProvider",
+        "detail": "app.api.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "peekOfCode": "class User(Base):\n    \"\"\"User model for authentication.\"\"\"\n    __tablename__ = \"users\"\n    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)\n    email = Column(String(255), unique=True, nullable=False, index=True)\n    username = Column(String(100), unique=True, nullable=False, index=True)\n    hashed_password = Column(String(255), nullable=False)\n    is_active = Column(Boolean, default=True, nullable=False)\n    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)\n    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)",
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "UserAPIKey",
+        "kind": 6,
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "peekOfCode": "class UserAPIKey(Base):\n    \"\"\"Encrypted API keys storage for users.\"\"\"\n    __tablename__ = \"user_api_keys\"\n    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)\n    user_id = Column(UUID(as_uuid=True), ForeignKey(\"users.id\"), nullable=False)\n    provider = Column(SQLEnum(ModelProvider), nullable=False)\n    encrypted_key = Column(Text, nullable=False)  # Fernet encrypted\n    key_name = Column(String(100), nullable=False)  # User-friendly name\n    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)\n    # Relationships",
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "PromptHistory",
+        "kind": 6,
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "peekOfCode": "class PromptHistory(Base):\n    \"\"\"History of user's prompt tests and enhancements.\"\"\"\n    __tablename__ = \"prompt_history\"\n    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)\n    user_id = Column(UUID(as_uuid=True), ForeignKey(\"users.id\"), nullable=False)\n    # Prompt data\n    prompt = Column(Text, nullable=False)\n    enhanced_prompt = Column(Text, nullable=True)\n    domain = Column(String(100), nullable=True)\n    model_used = Column(String(50), nullable=False)",
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "kind": 2,
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "peekOfCode": "def get_password_hash(password: str) -> str:\n    \"\"\"Hash a password using bcrypt.\"\"\"\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    \"\"\"Verify a password against its hash.\"\"\"\n    return pwd_context.verify(plain_password, hashed_password)\ndef create_access_token(data: Dict[str, Any], expires_delta: Optional[timedelta] = None) -> str:\n    \"\"\"\n    Create a JWT access token.\n    Args:",
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    \"\"\"Verify a password against its hash.\"\"\"\n    return pwd_context.verify(plain_password, hashed_password)\ndef create_access_token(data: Dict[str, Any], expires_delta: Optional[timedelta] = None) -> str:\n    \"\"\"\n    Create a JWT access token.\n    Args:\n        data: Data to encode in the token\n        expires_delta: Optional custom expiration time\n    Returns:",
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "peekOfCode": "def create_access_token(data: Dict[str, Any], expires_delta: Optional[timedelta] = None) -> str:\n    \"\"\"\n    Create a JWT access token.\n    Args:\n        data: Data to encode in the token\n        expires_delta: Optional custom expiration time\n    Returns:\n        Encoded JWT token\n    \"\"\"\n    if not settings.jwt_secret_key:",
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "decode_access_token",
+        "kind": 2,
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "peekOfCode": "def decode_access_token(token: str) -> Optional[Dict[str, Any]]:\n    \"\"\"\n    Decode a JWT access token.\n    Args:\n        token: JWT token to decode\n    Returns:\n        Decoded token data or None if invalid\n    \"\"\"\n    if not settings.jwt_secret_key:\n        raise ValueError(\"JWT_SECRET_KEY not configured\")",
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "encrypt_api_key",
+        "kind": 2,
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "peekOfCode": "def encrypt_api_key(api_key: str) -> str:\n    \"\"\"\n    Encrypt an API key for storage.\n    Args:\n        api_key: Plain text API key\n    Returns:\n        Encrypted API key\n    \"\"\"\n    if not fernet:\n        raise ValueError(\"Encryption not configured\")",
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "decrypt_api_key",
+        "kind": 2,
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "peekOfCode": "def decrypt_api_key(encrypted_key: str) -> str:\n    \"\"\"\n    Decrypt an API key from storage.\n    Args:\n        encrypted_key: Encrypted API key\n    Returns:\n        Decrypted API key\n    \"\"\"\n    if not fernet:\n        raise ValueError(\"Encryption not configured\")",
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "generate_encryption_key",
+        "kind": 2,
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "peekOfCode": "def generate_encryption_key() -> str:\n    \"\"\"\n    Generate a new Fernet encryption key.\n    Returns:\n        Base64 encoded encryption key\n    \"\"\"\n    return Fernet.generate_key().decode()\ndef validate_password(password: str) -> bool:\n    \"\"\"\n    Validate password meets requirements.",
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "validate_password",
+        "kind": 2,
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "peekOfCode": "def validate_password(password: str) -> bool:\n    \"\"\"\n    Validate password meets requirements.\n    Args:\n        password: Password to validate\n    Returns:\n        True if password is valid\n    \"\"\"\n    if len(password) < 8:\n        return False",
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# Fernet encryption for API keys\nfernet: Optional[Fernet] = None\nif settings.encryption_key:\n    try:\n        fernet = Fernet(settings.encryption_key.encode())\n    except Exception as e:\n        logger.error(\"Failed to initialize Fernet encryption\", error=str(e))\ndef get_password_hash(password: str) -> str:\n    \"\"\"Hash a password using bcrypt.\"\"\"",
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
         "label": "Settings",
         "kind": 6,
         "importPath": "app.config",
         "description": "app.config",
-        "peekOfCode": "class Settings(BaseSettings):\n    google_api_key: str = Field(..., env=\"GOOGLE_API_KEY\")\n    log_level: str = Field(\"INFO\", env=\"LOG_LEVEL\")\n    rate_limit_requests: int = Field(10, env=\"RATE_LIMIT_REQUESTS\")\n    rate_limit_window: int = Field(60, env=\"RATE_LIMIT_WINDOW\")\n    max_synthetic_cases: int = Field(10, env=\"MAX_SYNTHETIC_CASES\")\n    request_timeout: int = Field(30, env=\"REQUEST_TIMEOUT\")\n    class Config:\n        env_file = \".env\"\n        env_file_encoding = \"utf-8\"",
+        "peekOfCode": "class Settings(BaseSettings):\n    # API Keys\n    google_api_key: str = Field(..., env=\"GOOGLE_API_KEY\")\n    openai_api_key: Optional[str] = Field(None, env=\"OPENAI_API_KEY\")\n    anthropic_api_key: Optional[str] = Field(None, env=\"ANTHROPIC_API_KEY\")\n    # Model Configuration\n    default_model: str = Field(\"gemini-1.5-flash\", env=\"DEFAULT_MODEL\")\n    evaluator_model: str = Field(\"gemini-2.0-flash\", env=\"EVALUATOR_MODEL\")\n    # Application Settings\n    log_level: str = Field(\"INFO\", env=\"LOG_LEVEL\")",
         "detail": "app.config",
         "documentation": {}
     },
@@ -578,6 +2070,33 @@
         "description": "app.config",
         "peekOfCode": "settings = Settings()",
         "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_database_url",
+        "kind": 2,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "def get_database_url() -> str:\n    \"\"\"Get the database URL from settings.\"\"\"\n    if not settings.database_url:\n        raise ValueError(\"DATABASE_URL not configured\")\n    return settings.database_url\nasync def init_database():\n    \"\"\"Initialize the database engine and session maker.\"\"\"\n    global engine, async_session_maker\n    if not settings.enable_database:\n        logger.info(\"Database is disabled\")",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "Base = declarative_base()\n# Global engine and session maker\nengine: Optional[AsyncSession] = None\nasync_session_maker: Optional[async_sessionmaker] = None\ndef get_database_url() -> str:\n    \"\"\"Get the database URL from settings.\"\"\"\n    if not settings.database_url:\n        raise ValueError(\"DATABASE_URL not configured\")\n    return settings.database_url\nasync def init_database():",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "security",
+        "kind": 5,
+        "importPath": "app.dependencies",
+        "description": "app.dependencies",
+        "peekOfCode": "security = HTTPBearer(auto_error=False)\nasync def get_current_user_optional(\n    credentials: Optional[HTTPAuthorizationCredentials] = Depends(security),\n    db: Optional[AsyncSession] = Depends(get_optional_db)\n) -> Optional[User]:\n    \"\"\"\n    Get current user from JWT token if provided.\n    Returns None if no token or database is disabled.\n    \"\"\"\n    if not settings.enable_database or not db:",
+        "detail": "app.dependencies",
         "documentation": {}
     },
     {
@@ -684,7 +2203,7 @@
         "kind": 2,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "def check_rate_limit(client_ip: str) -> bool:\n    current_time = time.time()\n    if client_ip not in rate_limit_store:\n        rate_limit_store[client_ip] = {\"requests\": 1, \"window_start\": current_time}\n        return True\n    client_data = rate_limit_store[client_ip]\n    if current_time - client_data[\"window_start\"] > settings.rate_limit_window:\n        client_data[\"requests\"] = 1\n        client_data[\"window_start\"] = current_time\n        return True",
+        "peekOfCode": "def check_rate_limit(client_ip: str) -> bool:\n    try:\n        # Validate IP address\n        client_ip = RateLimitValidator.validate_ip(client_ip)\n    except ValueError:\n        # If IP validation fails, use a default identifier\n        client_ip = \"unknown\"\n    current_time = time.time()\n    if client_ip not in rate_limit_store:\n        rate_limit_store[client_ip] = {\"requests\": 1, \"window_start\": current_time}",
         "detail": "app.main",
         "documentation": {}
     },
@@ -711,7 +2230,16 @@
         "kind": 6,
         "importPath": "app.models",
         "description": "app.models",
-        "peekOfCode": "class ScoreMethod(str, Enum):\n    EXACT_MATCH = \"exact_match\"  # Semantic similarity with strict evaluation\n    GPT_JUDGE = \"gpt_judge\"  # Semantic similarity with flexible evaluation\n    HYBRID = \"hybrid\"  # Optimized semantic evaluation using gemini-2.0-flash\nclass TestCase(BaseModel):\n    input: str = Field(..., description=\"Input text for the test case\")\n    expected: str = Field(..., description=\"Expected output for the test case\")\nclass TestRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to test\", min_length=1)\n    domain: Optional[str] = Field(None, description=\"Domain/topic for synthetic test cases\")",
+        "peekOfCode": "class ScoreMethod(str, Enum):\n    EXACT_MATCH = \"exact_match\"  # Semantic similarity with strict evaluation\n    GPT_JUDGE = \"gpt_judge\"  # Semantic similarity with flexible evaluation\n    HYBRID = \"hybrid\"  # Optimized semantic evaluation using gemini-2.0-flash\nclass ModelProvider(str, Enum):\n    GEMINI = \"gemini\"  # Google Gemini models\n    GPT4 = \"gpt-4\"  # OpenAI GPT-4\n    GPT35 = \"gpt-3.5-turbo\"  # OpenAI GPT-3.5 Turbo\n    CLAUDE = \"claude-3\"  # Anthropic Claude 3\nclass TestCase(BaseModel):",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModelProvider",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class ModelProvider(str, Enum):\n    GEMINI = \"gemini\"  # Google Gemini models\n    GPT4 = \"gpt-4\"  # OpenAI GPT-4\n    GPT35 = \"gpt-3.5-turbo\"  # OpenAI GPT-3.5 Turbo\n    CLAUDE = \"claude-3\"  # Anthropic Claude 3\nclass TestCase(BaseModel):\n    input: str = Field(..., description=\"Input text for the test case\")\n    expected: str = Field(..., description=\"Expected output for the test case\")\nclass TestRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to test\", min_length=1)",
         "detail": "app.models",
         "documentation": {}
     },
@@ -720,7 +2248,7 @@
         "kind": 6,
         "importPath": "app.models",
         "description": "app.models",
-        "peekOfCode": "class TestCase(BaseModel):\n    input: str = Field(..., description=\"Input text for the test case\")\n    expected: str = Field(..., description=\"Expected output for the test case\")\nclass TestRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to test\", min_length=1)\n    domain: Optional[str] = Field(None, description=\"Domain/topic for synthetic test cases\")\n    num_cases: int = Field(5, description=\"Number of test cases to generate\", ge=1, le=10)\n    score_method: ScoreMethod = Field(ScoreMethod.HYBRID, description=\"Scoring method - all methods evaluate semantic meaning, not exact text matching\")\n    example_expected: Optional[str] = Field(None, description=\"Optional example of expected output format to guide test case generation\")\n    @validator('prompt')",
+        "peekOfCode": "class TestCase(BaseModel):\n    input: str = Field(..., description=\"Input text for the test case\")\n    expected: str = Field(..., description=\"Expected output for the test case\")\nclass TestRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to test\", min_length=1)\n    domain: Optional[str] = Field(None, description=\"Domain/topic for synthetic test cases\")\n    num_cases: int = Field(5, description=\"Number of test cases to generate\", ge=1, le=10)\n    score_method: ScoreMethod = Field(ScoreMethod.HYBRID, description=\"Scoring method - all methods evaluate semantic meaning, not exact text matching\")\n    example_expected: Optional[str] = Field(None, description=\"Optional example of expected output format to guide test case generation\")\n    model: Optional[ModelProvider] = Field(None, description=\"AI model to use for testing (defaults to Gemini)\")",
         "detail": "app.models",
         "documentation": {}
     },
@@ -729,7 +2257,7 @@
         "kind": 6,
         "importPath": "app.models",
         "description": "app.models",
-        "peekOfCode": "class TestRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to test\", min_length=1)\n    domain: Optional[str] = Field(None, description=\"Domain/topic for synthetic test cases\")\n    num_cases: int = Field(5, description=\"Number of test cases to generate\", ge=1, le=10)\n    score_method: ScoreMethod = Field(ScoreMethod.HYBRID, description=\"Scoring method - all methods evaluate semantic meaning, not exact text matching\")\n    example_expected: Optional[str] = Field(None, description=\"Optional example of expected output format to guide test case generation\")\n    @validator('prompt')\n    def validate_prompt(cls, v):\n        if len(v.strip()) == 0:\n            raise ValueError('Prompt cannot be empty')",
+        "peekOfCode": "class TestRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to test\", min_length=1)\n    domain: Optional[str] = Field(None, description=\"Domain/topic for synthetic test cases\")\n    num_cases: int = Field(5, description=\"Number of test cases to generate\", ge=1, le=10)\n    score_method: ScoreMethod = Field(ScoreMethod.HYBRID, description=\"Scoring method - all methods evaluate semantic meaning, not exact text matching\")\n    example_expected: Optional[str] = Field(None, description=\"Optional example of expected output format to guide test case generation\")\n    model: Optional[ModelProvider] = Field(None, description=\"AI model to use for testing (defaults to Gemini)\")\n    api_key: Optional[str] = Field(None, description=\"API key for the selected model (optional, uses server key if not provided)\")\n    @validator('prompt')\n    def validate_prompt(cls, v):",
         "detail": "app.models",
         "documentation": {}
     },
@@ -747,7 +2275,7 @@
         "kind": 6,
         "importPath": "app.models",
         "description": "app.models",
-        "peekOfCode": "class TestResponse(BaseModel):\n    request_id: str\n    prompt: str\n    test_results: List[TestResult]\n    overall_score: float = Field(..., ge=0.0, le=1.0)\n    total_cases: int\n    passed_cases: int\n    execution_time: float\n    token_usage: Dict[str, int]\nclass EnhanceRequest(BaseModel):",
+        "peekOfCode": "class TestResponse(BaseModel):\n    request_id: str\n    prompt: str\n    test_results: List[TestResult]\n    overall_score: float = Field(..., ge=0.0, le=1.0)\n    total_cases: int\n    passed_cases: int\n    execution_time: float\n    token_usage: Dict[str, int]\n    model_used: Optional[str] = Field(None, description=\"The AI model used for testing\")",
         "detail": "app.models",
         "documentation": {}
     },
@@ -756,7 +2284,7 @@
         "kind": 6,
         "importPath": "app.models",
         "description": "app.models",
-        "peekOfCode": "class EnhanceRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to enhance\", min_length=1)\n    domain: Optional[str] = Field(None, description=\"Domain/topic context\")\n    auto_retest: bool = Field(False, description=\"Automatically test the enhanced prompt\")\n    @validator('prompt')\n    def validate_prompt(cls, v):\n        if len(v.strip()) == 0:\n            raise ValueError('Prompt cannot be empty')\n        return v.strip()\nclass EnhanceResponse(BaseModel):",
+        "peekOfCode": "class EnhanceRequest(BaseModel):\n    prompt: str = Field(..., description=\"The prompt to enhance\", min_length=1)\n    domain: Optional[str] = Field(None, description=\"Domain/topic context\")\n    auto_retest: bool = Field(False, description=\"Automatically test the enhanced prompt\")\n    model: Optional[ModelProvider] = Field(None, description=\"AI model to use for enhancement (defaults to Gemini)\")\n    api_key: Optional[str] = Field(None, description=\"API key for the selected model (optional, uses server key if not provided)\")\n    @validator('prompt')\n    def validate_prompt(cls, v):\n        if len(v.strip()) == 0:\n            raise ValueError('Prompt cannot be empty')",
         "detail": "app.models",
         "documentation": {}
     },
@@ -785,6 +2313,150 @@
         "description": "app.models",
         "peekOfCode": "class HealthResponse(BaseModel):\n    status: str\n    timestamp: str\n    version: str = \"1.0.0\"",
         "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "MultiModelService",
+        "kind": 6,
+        "importPath": "app.multi_model_service",
+        "description": "app.multi_model_service",
+        "peekOfCode": "class MultiModelService:\n    \"\"\"Service that supports multiple AI model providers.\"\"\"\n    def __init__(self):\n        self.token_usage = {\"input_tokens\": 0, \"output_tokens\": 0}\n        self._models_cache = {}\n    def _get_model(self, provider: Optional[ModelProvider] = None, is_evaluator: bool = False, api_key: Optional[str] = None):\n        \"\"\"Get the appropriate model based on provider and purpose.\"\"\"\n        # Default to Gemini if no provider specified\n        if provider is None:\n            provider = ModelProvider.GEMINI",
+        "detail": "app.multi_model_service",
+        "documentation": {}
+    },
+    {
+        "label": "1.0",
+        "kind": 5,
+        "importPath": "app.multi_model_service",
+        "description": "app.multi_model_service",
+        "peekOfCode": "1.0 = Same meaning/intent\n0.8-0.9 = Very similar meaning\n0.6-0.7 = Mostly similar\n0.4-0.5 = Partially similar\n0.0-0.3 = Different meaning\nJSON: {{\"score\": float, \"reasoning\": \"brief explanation\"}}\"\"\"\n            try:\n                messages = [HumanMessage(content=judge_prompt)]\n                response = await evaluator_model.ainvoke(messages)\n                result = extract_json_object(response.content.strip())",
+        "detail": "app.multi_model_service",
+        "documentation": {}
+    },
+    {
+        "label": "0.8-0.9",
+        "kind": 5,
+        "importPath": "app.multi_model_service",
+        "description": "app.multi_model_service",
+        "peekOfCode": "0.8-0.9 = Very similar meaning\n0.6-0.7 = Mostly similar\n0.4-0.5 = Partially similar\n0.0-0.3 = Different meaning\nJSON: {{\"score\": float, \"reasoning\": \"brief explanation\"}}\"\"\"\n            try:\n                messages = [HumanMessage(content=judge_prompt)]\n                response = await evaluator_model.ainvoke(messages)\n                result = extract_json_object(response.content.strip())\n                return float(result[\"score\"]), result[\"reasoning\"]",
+        "detail": "app.multi_model_service",
+        "documentation": {}
+    },
+    {
+        "label": "0.6-0.7",
+        "kind": 5,
+        "importPath": "app.multi_model_service",
+        "description": "app.multi_model_service",
+        "peekOfCode": "0.6-0.7 = Mostly similar\n0.4-0.5 = Partially similar\n0.0-0.3 = Different meaning\nJSON: {{\"score\": float, \"reasoning\": \"brief explanation\"}}\"\"\"\n            try:\n                messages = [HumanMessage(content=judge_prompt)]\n                response = await evaluator_model.ainvoke(messages)\n                result = extract_json_object(response.content.strip())\n                return float(result[\"score\"]), result[\"reasoning\"]\n            except Exception as e:",
+        "detail": "app.multi_model_service",
+        "documentation": {}
+    },
+    {
+        "label": "0.4-0.5",
+        "kind": 5,
+        "importPath": "app.multi_model_service",
+        "description": "app.multi_model_service",
+        "peekOfCode": "0.4-0.5 = Partially similar\n0.0-0.3 = Different meaning\nJSON: {{\"score\": float, \"reasoning\": \"brief explanation\"}}\"\"\"\n            try:\n                messages = [HumanMessage(content=judge_prompt)]\n                response = await evaluator_model.ainvoke(messages)\n                result = extract_json_object(response.content.strip())\n                return float(result[\"score\"]), result[\"reasoning\"]\n            except Exception as e:\n                logger.error(\"Failed hybrid scoring\", error=str(e))",
+        "detail": "app.multi_model_service",
+        "documentation": {}
+    },
+    {
+        "label": "0.0-0.3",
+        "kind": 5,
+        "importPath": "app.multi_model_service",
+        "description": "app.multi_model_service",
+        "peekOfCode": "0.0-0.3 = Different meaning\nJSON: {{\"score\": float, \"reasoning\": \"brief explanation\"}}\"\"\"\n            try:\n                messages = [HumanMessage(content=judge_prompt)]\n                response = await evaluator_model.ainvoke(messages)\n                result = extract_json_object(response.content.strip())\n                return float(result[\"score\"]), result[\"reasoning\"]\n            except Exception as e:\n                logger.error(\"Failed hybrid scoring\", error=str(e))\n                return 0.0, f\"Scoring error: {str(e)}\"",
+        "detail": "app.multi_model_service",
+        "documentation": {}
+    },
+    {
+        "label": "PromptValidator",
+        "kind": 6,
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "peekOfCode": "class PromptValidator:\n    \"\"\"Validates and sanitizes prompt inputs.\"\"\"\n    @staticmethod\n    def validate_prompt(prompt: str) -> str:\n        \"\"\"\n        Validate and sanitize a prompt input.\n        Args:\n            prompt: The raw prompt string\n        Returns:\n            Sanitized prompt string",
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimitValidator",
+        "kind": 6,
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "peekOfCode": "class RateLimitValidator:\n    \"\"\"Validates rate limiting parameters.\"\"\"\n    @staticmethod\n    def validate_ip(ip: str) -> str:\n        \"\"\"\n        Validate IP address format.\n        Args:\n            ip: IP address string\n        Returns:\n            Validated IP address",
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "APIKeyValidator",
+        "kind": 6,
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "peekOfCode": "class APIKeyValidator:\n    \"\"\"Validates API keys for different providers.\"\"\"\n    @staticmethod\n    def validate_api_key(api_key: Optional[str], provider: Optional[str] = None) -> Optional[str]:\n        \"\"\"\n        Validate API key format and sanitize.\n        Args:\n            api_key: The API key string\n            provider: The model provider (gemini, gpt4, gpt35, claude)\n        Returns:",
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_PROMPT_LENGTH",
+        "kind": 5,
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "peekOfCode": "MAX_PROMPT_LENGTH = 10000\nMAX_DOMAIN_LENGTH = 100\nMAX_EXPECTED_LENGTH = 5000\nMIN_PROMPT_LENGTH = 10\n# Dangerous patterns that could indicate injection attempts\nDANGEROUS_PATTERNS = [\n    r'<script[^>]*>.*?</script>',  # Script tags\n    r'javascript:',  # JavaScript protocol\n    r'on\\w+\\s*=',  # Event handlers\n    r'<iframe',  # Iframes",
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_DOMAIN_LENGTH",
+        "kind": 5,
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "peekOfCode": "MAX_DOMAIN_LENGTH = 100\nMAX_EXPECTED_LENGTH = 5000\nMIN_PROMPT_LENGTH = 10\n# Dangerous patterns that could indicate injection attempts\nDANGEROUS_PATTERNS = [\n    r'<script[^>]*>.*?</script>',  # Script tags\n    r'javascript:',  # JavaScript protocol\n    r'on\\w+\\s*=',  # Event handlers\n    r'<iframe',  # Iframes\n    r'<embed',  # Embed tags",
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_EXPECTED_LENGTH",
+        "kind": 5,
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "peekOfCode": "MAX_EXPECTED_LENGTH = 5000\nMIN_PROMPT_LENGTH = 10\n# Dangerous patterns that could indicate injection attempts\nDANGEROUS_PATTERNS = [\n    r'<script[^>]*>.*?</script>',  # Script tags\n    r'javascript:',  # JavaScript protocol\n    r'on\\w+\\s*=',  # Event handlers\n    r'<iframe',  # Iframes\n    r'<embed',  # Embed tags\n    r'<object',  # Object tags",
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "MIN_PROMPT_LENGTH",
+        "kind": 5,
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "peekOfCode": "MIN_PROMPT_LENGTH = 10\n# Dangerous patterns that could indicate injection attempts\nDANGEROUS_PATTERNS = [\n    r'<script[^>]*>.*?</script>',  # Script tags\n    r'javascript:',  # JavaScript protocol\n    r'on\\w+\\s*=',  # Event handlers\n    r'<iframe',  # Iframes\n    r'<embed',  # Embed tags\n    r'<object',  # Object tags\n    r'\\{\\{.*?\\}\\}',  # Template injection",
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "DANGEROUS_PATTERNS",
+        "kind": 5,
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "peekOfCode": "DANGEROUS_PATTERNS = [\n    r'<script[^>]*>.*?</script>',  # Script tags\n    r'javascript:',  # JavaScript protocol\n    r'on\\w+\\s*=',  # Event handlers\n    r'<iframe',  # Iframes\n    r'<embed',  # Embed tags\n    r'<object',  # Object tags\n    r'\\{\\{.*?\\}\\}',  # Template injection\n    r'\\$\\{.*?\\}',  # Template literals\n    r'__.*__',  # Python magic methods",
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_TAGS",
+        "kind": 5,
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "peekOfCode": "ALLOWED_TAGS = ['p', 'br', 'strong', 'em', 'u', 'code', 'pre', 'blockquote']\nALLOWED_ATTRIBUTES = {}\nclass PromptValidator:\n    \"\"\"Validates and sanitizes prompt inputs.\"\"\"\n    @staticmethod\n    def validate_prompt(prompt: str) -> str:\n        \"\"\"\n        Validate and sanitize a prompt input.\n        Args:\n            prompt: The raw prompt string",
+        "detail": "app.validators",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_ATTRIBUTES",
+        "kind": 5,
+        "importPath": "app.validators",
+        "description": "app.validators",
+        "peekOfCode": "ALLOWED_ATTRIBUTES = {}\nclass PromptValidator:\n    \"\"\"Validates and sanitizes prompt inputs.\"\"\"\n    @staticmethod\n    def validate_prompt(prompt: str) -> str:\n        \"\"\"\n        Validate and sanitize a prompt input.\n        Args:\n            prompt: The raw prompt string\n        Returns:",
+        "detail": "app.validators",
         "documentation": {}
     },
     {
@@ -866,6 +2538,78 @@
         "description": "tests.test_main",
         "peekOfCode": "client = TestClient(app)\ndef test_health_check():\n    response = client.get(\"/health\")\n    assert response.status_code == 200\n    data = response.json()\n    assert data[\"status\"] == \"healthy\"\n    assert \"timestamp\" in data\n    assert data[\"version\"] == \"1.0.0\"\ndef test_test_endpoint_validation():\n    # Test empty prompt",
         "detail": "tests.test_main",
+        "documentation": {}
+    },
+    {
+        "label": "TestPromptValidator",
+        "kind": 6,
+        "importPath": "tests.test_validators",
+        "description": "tests.test_validators",
+        "peekOfCode": "class TestPromptValidator:\n    \"\"\"Test prompt validation functionality.\"\"\"\n    def test_valid_prompt(self):\n        \"\"\"Test that valid prompts pass validation.\"\"\"\n        valid_prompts = [\n            \"Translate the following text to French:\",\n            \"Write a Python function that calculates factorial\",\n            \"Summarize this article in 3 bullet points\",\n            \"A\" * 50,  # Minimum reasonable length\n            \"B\" * 5000,  # Long but within limits",
+        "detail": "tests.test_validators",
+        "documentation": {}
+    },
+    {
+        "label": "TestDomainValidator",
+        "kind": 6,
+        "importPath": "tests.test_validators",
+        "description": "tests.test_validators",
+        "peekOfCode": "class TestDomainValidator:\n    \"\"\"Test domain validation functionality.\"\"\"\n    def test_valid_domains(self):\n        \"\"\"Test that valid domains pass validation.\"\"\"\n        valid_domains = [\n            \"translation\",\n            \"code-generation\",\n            \"text_summarization\",\n            \"data analysis\",\n            None,  # Optional domain",
+        "detail": "tests.test_validators",
+        "documentation": {}
+    },
+    {
+        "label": "TestNumCasesValidator",
+        "kind": 6,
+        "importPath": "tests.test_validators",
+        "description": "tests.test_validators",
+        "peekOfCode": "class TestNumCasesValidator:\n    \"\"\"Test number of cases validation.\"\"\"\n    def test_valid_num_cases(self):\n        \"\"\"Test that valid numbers pass validation.\"\"\"\n        for num in range(1, 11):\n            result = PromptValidator.validate_num_cases(num, max_allowed=10)\n            assert result == num\n    def test_invalid_num_cases(self):\n        \"\"\"Test that invalid numbers are rejected.\"\"\"\n        with pytest.raises(ValueError, match=\"at least 1\"):",
+        "detail": "tests.test_validators",
+        "documentation": {}
+    },
+    {
+        "label": "TestExampleExpectedValidator",
+        "kind": 6,
+        "importPath": "tests.test_validators",
+        "description": "tests.test_validators",
+        "peekOfCode": "class TestExampleExpectedValidator:\n    \"\"\"Test example expected output validation.\"\"\"\n    def test_valid_examples(self):\n        \"\"\"Test that valid examples pass validation.\"\"\"\n        valid_examples = [\n            \"Simple output\",\n            \"Multi-line\\noutput\\nwith newlines\",\n            \"Output with special chars: @#$%^&*()\",\n            None,  # Optional\n        ]",
+        "detail": "tests.test_validators",
+        "documentation": {}
+    },
+    {
+        "label": "TestOutputSanitizer",
+        "kind": 6,
+        "importPath": "tests.test_validators",
+        "description": "tests.test_validators",
+        "peekOfCode": "class TestOutputSanitizer:\n    \"\"\"Test output sanitization.\"\"\"\n    def test_html_removal(self):\n        \"\"\"Test that HTML is removed from outputs.\"\"\"\n        output = \"<p>This is <script>alert()</script> output</p>\"\n        result = PromptValidator.sanitize_output(output)\n        assert \"<script>\" not in result\n        assert \"</script>\" not in result\n        # Note: bleach removes tags but keeps content\n        assert \"This is\" in result",
+        "detail": "tests.test_validators",
+        "documentation": {}
+    },
+    {
+        "label": "TestTestRequestValidator",
+        "kind": 6,
+        "importPath": "tests.test_validators",
+        "description": "tests.test_validators",
+        "peekOfCode": "class TestTestRequestValidator:\n    \"\"\"Test complete request validation.\"\"\"\n    def test_valid_request(self):\n        \"\"\"Test that valid requests pass validation.\"\"\"\n        request_data = {\n            'prompt': 'Translate the following text to French:',\n            'domain': 'translation',\n            'num_cases': 5,\n            'score_method': 'hybrid',\n            'example_expected': 'Bonjour le monde',",
+        "detail": "tests.test_validators",
+        "documentation": {}
+    },
+    {
+        "label": "TestRateLimitValidator",
+        "kind": 6,
+        "importPath": "tests.test_validators",
+        "description": "tests.test_validators",
+        "peekOfCode": "class TestRateLimitValidator:\n    \"\"\"Test rate limit validation.\"\"\"\n    def test_valid_ips(self):\n        \"\"\"Test that valid IPs pass validation.\"\"\"\n        valid_ips = [\n            \"192.168.1.1\",\n            \"10.0.0.1\",\n            \"127.0.0.1\",\n            \"::1\",  # IPv6 localhost\n            \"2001:db8::1\",  # IPv6",
+        "detail": "tests.test_validators",
+        "documentation": {}
+    },
+    {
+        "label": "TestAPIKeyValidator",
+        "kind": 6,
+        "importPath": "tests.test_validators",
+        "description": "tests.test_validators",
+        "peekOfCode": "class TestAPIKeyValidator:\n    \"\"\"Test API key validation.\"\"\"\n    def test_valid_gemini_keys(self):\n        \"\"\"Test that valid Gemini API keys pass validation.\"\"\"\n        valid_keys = [\n            \"AIzaSyAbcdefghijklmnopqrstuvwxyz12345678\",  # 39 chars\n            \"AIzaSy_test_key_with_underscores_12345\",    # With underscores\n            \"AIzaSy-test-key-with-dashes-1234567890\",    # With dashes\n        ]\n        for key in valid_keys:",
+        "detail": "tests.test_validators",
         "documentation": {}
     },
     {

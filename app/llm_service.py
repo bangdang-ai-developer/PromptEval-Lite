@@ -10,6 +10,7 @@ from app.models import TestCase, TestResult, ScoreMethod
 from app.config import settings
 from app.logging_config import logger
 from app.json_utils import extract_json_array, extract_json_object
+from app.validators import PromptValidator
 
 
 class GeminiService:
@@ -145,7 +146,8 @@ Example format:
                         if code_end != -1:
                             return content[newline + 1:code_end].strip()
             
-            return content
+            # Sanitize output before returning
+            return PromptValidator.sanitize_output(content)
             
         except Exception as e:
             logger.error("Failed to evaluate prompt", error=str(e))

@@ -1,145 +1,279 @@
 # PromptEval-Lite
 
-A zero-storage prompt testing and enhancement microservice with a beautiful web interface, built with FastAPI, LangChain, and Gemini 1.5 Flash.
+A comprehensive prompt testing and enhancement platform with multi-model AI support, user authentication, and a beautiful web interface.
 
-## Features
+## 🚀 Quick Deploy (Free)
 
-### Core Features
-- **Test prompts** against synthetic test cases generated on-the-fly
-- **Enhance prompts** using AI-powered optimization
-- **Zero persistence** - all data exists only in memory during request lifetime
-- **Rate limiting** and structured logging
-- **Docker support** for easy deployment
+**Deploy to Render in 5 minutes:** See [QUICK_START.md](QUICK_START.md)
 
-### Web Interface Features
-- 🎨 **Modern UI**: Clean, responsive design with smooth animations
-- 🔄 **Real-time Testing**: Interactive prompt testing with live results
-- ⚡ **Instant Enhancement**: AI-powered prompt improvement with before/after comparison
-- 📊 **Detailed Analytics**: Score breakdown, token usage, and execution time
-- 📱 **Mobile Friendly**: Works seamlessly on all devices
-- 🎯 **Type Safety**: Full TypeScript support for robust development
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
-## API Endpoints
+## 🚀 Features
 
-### POST `/test`
-Test a prompt against synthetic test cases.
+### Core Capabilities
+- **Multi-Model Testing**: Support for latest AI models (June 2025):
+  - Google Gemini (2.5 Pro/Flash thinking models, 2.0 Flash)
+  - OpenAI (GPT-4.1 family with 1M context, GPT-4o, O3/O4 reasoning models)
+  - Anthropic (Claude 4 Opus/Sonnet - best coding models, Claude 3.5/3)
+- **Prompt Enhancement**: AI-powered suggestions to improve prompt effectiveness
+- **Advanced Scoring**: Multiple evaluation methods including semantic similarity
+- **Domain-Specific Testing**: Tailored test cases for different use cases
+- **Real-time Validation**: Instant feedback on prompt quality and structure
 
-```json
-{
-  "prompt": "Translate the following to French:",
-  "domain": "translation",
-  "num_cases": 5,
-  "score_method": "exact_match"
-}
-```
+### User Features
+- **Authentication System**: Secure user registration and login
+- **API Key Management**: Save and manage API keys for different providers
+- **Prompt History**: Track and review all your prompt tests
+- **Visual Diff View**: Compare original and enhanced prompts side-by-side
+- **Export Capabilities**: Download results in various formats
 
-### POST `/enhance`
-Enhance a prompt with best practices.
+### Technical Features
+- **Zero-storage Option**: Can run without database for privacy
+- **Rate Limiting**: Built-in request throttling
+- **Input Sanitization**: XSS and injection protection
+- **Async Architecture**: High-performance async/await throughout
+- **Docker Support**: Easy deployment with Docker Compose
 
-```json
-{
-  "prompt": "Translate the following to French:",
-  "domain": "translation", 
-  "auto_retest": true
-}
-```
+## 🛠️ Tech Stack
 
-### GET `/health`
-Health check endpoint.
+- **Backend**: FastAPI (Python 3.11+) with async support
+- **Frontend**: React + TypeScript + Vite + Tailwind CSS
+- **Database**: PostgreSQL with async SQLAlchemy (optional)
+- **AI/LLM**: LangChain with multiple model providers
+- **Authentication**: JWT tokens with bcrypt password hashing
+- **Infrastructure**: Docker + Docker Compose
 
-## Setup
+## 📋 Prerequisites
 
-### Backend Setup
+- Python 3.11 or higher
+- Node.js 16+ and npm 8+
+- PostgreSQL 13+ (optional, for user features)
+- At least one AI provider API key:
+  - [Google AI Studio](https://makersuite.google.com/app/apikey) (Gemini)
+  - [OpenAI](https://platform.openai.com/api-keys) (GPT models)
+  - [Anthropic](https://console.anthropic.com/) (Claude)
 
-1. Clone the repository
-2. Install dependencies: `python3 -m pip install -r requirements.txt`
-3. Copy `.env.example` to `.env` and set your `GOOGLE_API_KEY`
-4. Run the server: `python3 -m uvicorn app.main:app --reload`
+## 🚀 Quick Start
 
-**Quick Start:**
+### 1. Clone the Repository
+
 ```bash
-# Automated setup
-./setup.sh
+git clone https://github.com/yourusername/prompteval-lite.git
+cd prompteval-lite
+```
 
-# Manual setup
+### 2. Backend Setup
+
+```bash
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment
 cp .env.example .env
-# Edit .env and add your GOOGLE_API_KEY
-python3 -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+# Edit .env and add your API keys and settings
+
+# Generate encryption key for API key storage (if using database)
+python scripts/generate_fernet_key.py
+# Add the generated key to your .env file
 ```
 
-**Get Gemini API Key:**
-Visit [Google AI Studio](https://makersuite.google.com/app/apikey) to get your free API key.
+### 3. Database Setup (Optional)
 
-### Frontend Setup
-
-The project includes a beautiful React frontend built with TypeScript and Tailwind CSS.
-
-**Requirements**: Node.js 18+ and npm 8+
+For user authentication and data persistence:
 
 ```bash
-# Build and serve frontend with backend
-cd frontend
-./build.sh
+# Using Docker
+docker-compose up -d postgres
 
-# Or develop frontend separately
+# Run migrations
+alembic upgrade head
+
+# Or use the setup script
+./scripts/run_migrations.sh
+```
+
+### 4. Frontend Setup
+
+```bash
 cd frontend
-./start-dev.sh  # Recommended - handles compatibility
-# OR manually:
 npm install
-npm run dev  # Runs on http://localhost:5173
 ```
 
-The frontend will be automatically served by the backend at `http://localhost:8000` when built.
+### 5. Run the Application
 
-## Docker
+**Backend** (from root directory):
+```bash
+python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+**Frontend** (in new terminal):
+```bash
+cd frontend
+npm run dev
+```
+
+Access the application at http://localhost:5173
+
+## 🐳 Docker Deployment
 
 ```bash
+# Build and run everything
 docker-compose up --build
+
+# Run in background
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop services
+docker-compose down
 ```
 
-## Development
+## 📝 Configuration
 
-Run tests:
+Create a `.env` file with:
+
+```env
+# Required: At least one API key
+GOOGLE_API_KEY=your_gemini_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+
+# Database (for authentication features)
+ENABLE_DATABASE=true
+DATABASE_URL=postgresql+asyncpg://prompteval:changeme@localhost:5433/prompteval
+
+# Security
+JWT_SECRET_KEY=your-secret-key-change-in-production
+ENCRYPTION_KEY=generate-with-fernet
+
+# Application
+LOG_LEVEL=INFO
+RATE_LIMIT_REQUESTS=10
+RATE_LIMIT_WINDOW=60
+MAX_SYNTHETIC_CASES=10
+REQUEST_TIMEOUT=30
+```
+
+## 📁 Project Structure
+
+```
+PromptEval-Lite/
+├── app/                    # FastAPI backend
+│   ├── api/               # API endpoints
+│   ├── db/                # Database models
+│   ├── main.py            # Application entry
+│   └── ...                # Services and utilities
+├── frontend/              # React frontend
+│   ├── src/              # Source code
+│   └── ...               # Config files
+├── alembic/              # Database migrations
+├── docs/                 # Documentation
+├── scripts/              # Utility scripts
+├── tests/                # Test suite
+└── docker-compose.yml    # Docker setup
+```
+
+## 🧪 Testing
+
 ```bash
-pytest tests/
+# Test API keys
+python scripts/test_api_keys.py
+
+# Run backend tests
+pytest
+
+# Test authentication flow
+python scripts/test_auth.py
+
+# Verify database
+python scripts/verify_db.py
 ```
 
-The application will be available at `http://localhost:8000`
+## 📚 API Documentation
 
-## Testing
+When running, visit:
+- **Swagger UI**: http://localhost:8000/docs
+- **ReDoc**: http://localhost:8000/redoc
 
-Test your API key and core functionality:
+### Key Endpoints
+
+- `POST /api/test` - Test a prompt
+- `POST /api/enhance` - Enhance a prompt
+- `POST /api/auth/register` - User registration
+- `POST /api/auth/login` - User login
+- `GET /api/user/history` - Get prompt history
+
+## 🔧 Development
+
+### Backend Development
 ```bash
-python3 test_api.py
+# Run with auto-reload
+python -m uvicorn app.main:app --reload
+
+# Run specific port
+python -m uvicorn app.main:app --port 8001
 ```
 
-Test the API endpoints (requires server to be running):
+### Frontend Development
 ```bash
-# In one terminal, start the server:
-python3 -m uvicorn app.main:app --reload
-
-# In another terminal, test the endpoints:
-python3 test_endpoints.py
+cd frontend
+npm run dev        # Development server
+npm run build      # Production build
+npm run preview    # Preview production build
 ```
 
-## Troubleshooting
+### Database Operations
+```bash
+# Create new migration
+alembic revision --autogenerate -m "Description"
 
-### Common Issues
+# Apply migrations
+alembic upgrade head
 
-1. **JSON parsing error**: The LLM response format may vary. The service now handles multiple response formats automatically.
+# Rollback
+alembic downgrade -1
+```
 
-2. **API key issues**: Make sure your GOOGLE_API_KEY is set correctly in the .env file. Get one from [Google AI Studio](https://makersuite.google.com/app/apikey).
+## 🤝 Contributing
 
-3. **pip installation issues**: Use `python3 -m pip` instead of `pip` if you encounter OpenSSL errors.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-4. **Empty responses**: Check the logs for detailed error messages. The service will log raw responses for debugging.
+## 📄 License
 
-## Configuration
+This project is licensed under the MIT License.
 
-Environment variables:
-- `GOOGLE_API_KEY`: Required Gemini API key
-- `LOG_LEVEL`: Logging level (default: INFO)
-- `RATE_LIMIT_REQUESTS`: Requests per window (default: 10)
-- `RATE_LIMIT_WINDOW`: Rate limit window in seconds (default: 60)
-- `MAX_SYNTHETIC_CASES`: Maximum test cases (default: 10)
-- `REQUEST_TIMEOUT`: Request timeout in seconds (default: 30)
+## 🚀 Deployment Options
+
+### Free Hosting
+- **[Quick Start Guide](QUICK_START.md)** - Deploy in 5 minutes
+- **[Free Deployment Guide](docs/FREE_DEPLOYMENT_GUIDE.md)** - All free hosting options
+- **[Render.com](render.yaml)** - Recommended free tier
+- **[Vercel](vercel.json)** - Serverless deployment
+- **[Netlify](netlify.toml)** - Static frontend hosting
+
+### Production Deployment
+- **[Docker Compose](docker-compose.yml)** - Full stack with database
+- **[Deployment Guide](docs/deployment.md)** - Detailed instructions
+
+## 🔗 Resources
+
+- [Project Documentation](docs/)
+- [Database Setup Guide](docs/database-setup.md)
+- [Deployment Guide](docs/deployment.md)
+- [Project Structure](docs/project-structure.md)
+
+## 🙏 Acknowledgments
+
+- Built with [FastAPI](https://fastapi.tiangolo.com/)
+- UI components from [Heroicons](https://heroicons.com/)
+- AI models from Google, OpenAI, and Anthropic
