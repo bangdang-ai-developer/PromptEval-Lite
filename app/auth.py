@@ -15,13 +15,15 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 # Fernet encryption for API keys
 fernet: Optional[Fernet] = None
-if settings.encryption_key:
+if settings.encryption_key and settings.enable_database:
     try:
         # Fernet key should already be base64 encoded
         fernet = Fernet(settings.encryption_key)
     except Exception as e:
         logger.error("Failed to initialize Fernet encryption", error=str(e))
         logger.info("Generate a valid key using: python scripts/generate_fernet_key.py")
+elif settings.enable_database and not settings.encryption_key:
+    logger.warning("Database enabled but ENCRYPTION_KEY not set - API key encryption disabled")
 
 
 def get_password_hash(password: str) -> str:
