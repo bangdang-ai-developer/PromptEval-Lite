@@ -22,6 +22,7 @@ coverage.xml
 # Frontend exclusions
 frontend/node_modules/
 frontend/dist/
+frontend/.env*
 
 # Git
 .git/
