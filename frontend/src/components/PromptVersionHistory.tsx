@@ -242,7 +242,7 @@ const PromptVersionHistory: React.FC<PromptVersionHistoryProps> = ({
                     >
                       {isRestoring ? (
                         <>
-                          <LoadingSpinner size="small" />
+                          <LoadingSpinner size="sm" />
                           Restoring...
                         </>
                       ) : (
@@ -260,20 +260,16 @@ const PromptVersionHistory: React.FC<PromptVersionHistoryProps> = ({
                     <div>
                       <h4 className="font-medium mb-2">Prompt Changes</h4>
                       <DiffView
-                        oldValue={selectedVersion.prompt}
-                        newValue={prompt.prompt}
-                        oldLabel={`Version ${selectedVersion.version_number}`}
-                        newLabel="Current Version"
+                        expected={selectedVersion.prompt}
+                        actual={prompt.prompt}
                       />
                     </div>
                     {selectedVersion.enhanced_prompt && prompt.enhanced_prompt && (
                       <div>
                         <h4 className="font-medium mb-2">Enhanced Prompt Changes</h4>
                         <DiffView
-                          oldValue={selectedVersion.enhanced_prompt}
-                          newValue={prompt.enhanced_prompt}
-                          oldLabel={`Version ${selectedVersion.version_number}`}
-                          newLabel="Current Version"
+                          expected={selectedVersion.enhanced_prompt}
+                          actual={prompt.enhanced_prompt}
                         />
                       </div>
                     )}

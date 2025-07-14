@@ -435,7 +435,7 @@ const TestPrompt = () => {
           prompt={config.prompt}
           domain={config.domain}
           model={config.model}
-          testResults={results}
+          testResults={results || undefined}
         />
       )}
     </div>

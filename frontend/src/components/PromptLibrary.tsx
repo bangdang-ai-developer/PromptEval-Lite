@@ -4,17 +4,13 @@ import type { PromptLibraryItem, PromptLibraryResponse } from '../services/api';
 import { 
   XMarkIcon, 
   MagnifyingGlassIcon,
-  FunnelIcon,
   ViewColumnsIcon,
   Squares2X2Icon,
   StarIcon,
   TrashIcon,
   DocumentDuplicateIcon,
-  PencilIcon,
-  ChevronRightIcon,
   ArrowDownTrayIcon,
   FolderIcon,
-  TagIcon,
   ClockIcon,
   ChartBarIcon,
   DocumentTextIcon,
@@ -22,7 +18,7 @@ import {
   CheckIcon,
   MinusIcon,
 } from '@heroicons/react/24/outline';
-import { StarIcon as StarIconSolid, CheckCircleIcon } from '@heroicons/react/24/solid';
+import { StarIcon as StarIconSolid } from '@heroicons/react/24/solid';
 import LoadingSpinner from './LoadingSpinner';
 import { useAuth } from '../contexts/AuthContext';
 import { useAppConfig } from '../contexts/AppConfigContext';
@@ -54,7 +50,7 @@ const CATEGORIES = [
 
 const PromptLibrary: React.FC<PromptLibraryProps> = ({ isOpen, onClose, onSelectPrompt }) => {
   const { isAuthenticated } = useAuth();
-  const { updateConfig } = useAppConfig();
+  const { } = useAppConfig();
   const [viewMode, setViewMode] = useState<ViewMode>('grid');
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -81,7 +77,6 @@ const PromptLibrary: React.FC<PromptLibraryProps> = ({ isOpen, onClose, onSelect
   });
   
   const [selectedPrompt, setSelectedPrompt] = useState<string | null>(null);
-  const [editingPrompt, setEditingPrompt] = useState<PromptLibraryItem | null>(null);
   
   // Bulk selection
   const [isSelectionMode, setIsSelectionMode] = useState(false);
@@ -375,10 +370,6 @@ const PromptLibrary: React.FC<PromptLibraryProps> = ({ isOpen, onClose, onSelect
     }
   };
 
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString();
-  };
 
   const totalPages = Math.ceil(libraryData.total / libraryData.page_size);
 
@@ -715,6 +706,19 @@ const PromptLibrary: React.FC<PromptLibraryProps> = ({ isOpen, onClose, onSelect
           </div>
         </div>
       )}
+      
+      {/* Version History Modal */}
+      {showVersionHistory && versionHistoryPrompt && (
+        <PromptVersionHistory
+          isOpen={showVersionHistory}
+          onClose={() => {
+            setShowVersionHistory(false);
+            setVersionHistoryPrompt(null);
+          }}
+          prompt={versionHistoryPrompt}
+          onPromptUpdate={handlePromptUpdate}
+        />
+      )}
     </div>
   );
 };
@@ -1046,18 +1050,6 @@ const PromptListItem: React.FC<{
             </div>
           )}
         </div>
-      )}
-      {/* Version History Modal */}
-      {showVersionHistory && versionHistoryPrompt && (
-        <PromptVersionHistory
-          isOpen={showVersionHistory}
-          onClose={() => {
-            setShowVersionHistory(false);
-            setVersionHistoryPrompt(null);
-          }}
-          prompt={versionHistoryPrompt}
-          onPromptUpdate={handlePromptUpdate}
-        />
       )}
     </div>
   );

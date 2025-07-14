@@ -197,7 +197,7 @@ const SavePromptModal: React.FC<SavePromptModalProps> = ({
               >
                 {isGeneratingName ? (
                   <>
-                    <LoadingSpinner size="small" />
+                    <LoadingSpinner size="sm" />
                     <span>Generating...</span>
                   </>
                 ) : (
@@ -308,7 +308,7 @@ const SavePromptModal: React.FC<SavePromptModalProps> = ({
             >
               {isLoading ? (
                 <>
-                  <LoadingSpinner size="small" />
+                  <LoadingSpinner size="sm" />
                   <span>Saving...</span>
                 </>
               ) : (

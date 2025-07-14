@@ -374,7 +374,7 @@ const EnhancePrompt = () => {
           prompt={config.prompt}
           domain={config.domain}
           model={config.model}
-          enhanceResults={results}
+          enhanceResults={results || undefined}
         />
       )}
     </div>
