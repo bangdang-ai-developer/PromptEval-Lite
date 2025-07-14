@@ -47,7 +47,8 @@
       "Bash(railway add:*)",
       "Bash(dos2unix:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(npx vite:*)"
     ],
     "deny": []
   }
