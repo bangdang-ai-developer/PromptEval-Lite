@@ -2,9 +2,12 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# Install system dependencies
+# Install system dependencies including Node.js
 RUN apt-get update && apt-get install -y \
     gcc \
+    curl \
+    && curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
+    && apt-get install -y nodejs \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy and install Python dependencies
@@ -21,11 +24,17 @@ COPY scripts/ ./scripts/
 COPY railway-entrypoint.sh .
 RUN chmod +x railway-entrypoint.sh
 
-# Create static directory
-RUN mkdir -p /app/static
+# Build frontend
+COPY frontend/package*.json ./frontend/
+WORKDIR /app/frontend
+RUN npm install --legacy-peer-deps
 
-# Copy only the built frontend files (not source)
-COPY frontend/dist/ ./static/
+COPY frontend/ ./
+RUN npm run build || npx vite build
+
+# Move built files to static directory
+WORKDIR /app
+RUN mkdir -p /app/static && cp -r frontend/dist/* /app/static/
 
 # Expose port
 EXPOSE 8000

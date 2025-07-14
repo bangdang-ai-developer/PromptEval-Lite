@@ -19,15 +19,9 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Frontend source (we only want dist)
-frontend/src/
+# Frontend exclusions
 frontend/node_modules/
-frontend/*.json
-frontend/*.config.*
-frontend/*.ts
-frontend/*.tsx
-frontend/.eslintrc*
-frontend/tsconfig*
+frontend/dist/
 
 # Git
 .git/
