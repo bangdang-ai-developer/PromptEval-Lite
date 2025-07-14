@@ -48,7 +48,8 @@
       "Bash(dos2unix:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(npx vite:*)"
+      "Bash(npx vite:*)",
+      "Bash(git push:*)"
     ],
     "deny": []
   }

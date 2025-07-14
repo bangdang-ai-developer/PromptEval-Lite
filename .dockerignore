@@ -1,29 +1,37 @@
 # Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
+__pycache__
+*.pyc
+*.pyo
+*.pyd
 .Python
 env/
 venv/
-.venv/
+.venv
 pip-log.txt
 pip-delete-this-directory.txt
-.pytest_cache/
+.tox/
 .coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
 *.cover
 .hypothesis/
+.pytest_cache/
 
-# Frontend
+# Frontend source (we only want dist)
+frontend/src/
 frontend/node_modules/
-frontend/dist/
-frontend/.parcel-cache/
-*.log
+frontend/*.json
+frontend/*.config.*
+frontend/*.ts
+frontend/*.tsx
+frontend/.eslintrc*
+frontend/tsconfig*
 
-# Environment
-.env
-.env.*
-!.env.example
+# Git
+.git/
+.gitignore
 
 # IDE
 .vscode/
@@ -36,28 +44,20 @@ frontend/.parcel-cache/
 .DS_Store
 Thumbs.db
 
-# Git
-.git/
-.gitignore
-
-# Documentation
-*.md
-!README.md
-
-# Testing
-tests/
-test_*.py
-
-# Build artifacts
-build/
-dist/
-*.egg-info/
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
+# Environment
+.env
+.env.*
 
 # Logs
-logs/
 *.log
+
+# Other
+*.md
+docs/
+tests/
+scripts/test_*.py
+Dockerfile*
+!Dockerfile.production
+docker-compose*.yml
+railway*.sh
+deploy*.sh
