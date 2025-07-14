@@ -1,0 +1,27 @@
+[build]
+builder = "nixpacks"
+buildCommand = "cd frontend && npm install && npm run build && cd .. && mkdir -p static && cp -r frontend/dist/* static/"
+
+[deploy]
+startCommand = "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+healthcheckPath = "/health"
+healthcheckTimeout = 100
+
+[[services]]
+name = "web"
+type = "web"
+
+[variables]
+GOOGLE_API_KEY = { required = true }
+ENABLE_DATABASE = "false"
+DEFAULT_MODEL = "gemini-2.5-flash"
+EVALUATOR_MODEL = "gemini-2.5-flash"
+LOG_LEVEL = "INFO"
+RATE_LIMIT_REQUESTS = "100"
+RATE_LIMIT_WINDOW = "60"
+MAX_SYNTHETIC_CASES = "10"
+REQUEST_TIMEOUT = "60"
+JWT_SECRET_KEY = "railway-generated-secret-key"
+JWT_ALGORITHM = "HS256"
+JWT_EXPIRATION_HOURS = "24"
+ENCRYPTION_KEY = "gAAAAABhZ0123456789012345678901234567890-_aaaaaaaaa"
