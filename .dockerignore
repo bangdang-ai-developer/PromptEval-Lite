@@ -53,5 +53,5 @@ scripts/test_*.py
 Dockerfile*
 !Dockerfile.production
 docker-compose*.yml
-railway*.sh
 deploy*.sh
+railway-db-setup.sh
